@@ -20,7 +20,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class HelloControllerIT {
 
     @LocalServerPort
-    private int port;
+    private int port = 8080;
 
     private URL base;
 
@@ -29,7 +29,7 @@ public class HelloControllerIT {
 
     @Before
     public void setUp() throws Exception {
-        this.base = new URL("http://localhost:" + port + "/");
+        this.base = new URL("http://localhost:" + String.valueOf(port) + "/hello");
     }
 
     @Test
