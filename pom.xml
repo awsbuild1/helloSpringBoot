@@ -55,6 +55,11 @@
             <artifactId>swagger-core</artifactId>
             <version>${swagger-core-version}</version>
         </dependency>
+        <dependency>
+                  <groupId>io.springfox</groupId>
+                  <artifactId>springfox-swagger-ui</artifactId>
+                  <version>${swagger-ui-version}</version>
+        </dependency>        
         
     </dependencies>
 
@@ -62,6 +67,7 @@
         <java.version>1.8</java.version>
         <springfox-version>2.5.0</springfox-version>
         <swagger-core-version>1.5.10</swagger-core-version>
+        <swagger-ui-version>2.7.0</swagger-ui-version>
     </properties>
 
     <build>
