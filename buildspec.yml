@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/my-app-1.0-SNAPSHOT.jar
+    - target/gs-spring-boot-0.1.0.jar
