@@ -30,6 +30,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        
         <!-- end::tests[] -->
         <!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations-->
 		<!--<dependency>
@@ -87,6 +88,13 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+   	 			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-maven-plugin</artifactId>
+    			<configuration>
+        			<executable>true</executable>
+    			</configuration>
+			</plugin>
             
         </plugins>
     </build>
