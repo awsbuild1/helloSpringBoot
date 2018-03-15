@@ -4,7 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-spring-boot</artifactId>
+    <artifactId>gs-spring-boot-awsbuild1</artifactId>
+    <packaging>war</packaging>
     <version>0.1.0</version>
 
     <parent>
@@ -18,12 +19,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
-        
         <!-- tag::actuator[] -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -75,7 +70,7 @@
         <springfox-version>2.5.0</springfox-version>
         <swagger-core-version>1.5.10</swagger-core-version>
         <swagger-ui-version>2.7.0</swagger-ui-version>
-        <start-class>hello.Application2</start-class>
+        
     </properties>
 
     <build>
